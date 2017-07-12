@@ -13,6 +13,8 @@ export class AdminComponent implements OnInit {
   constructor(private albumService: AlbumService) { }
 
   ngOnInit() {
+
+
   }
 
   submitForm(title: string, artist: string, description: string) {
